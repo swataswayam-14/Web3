@@ -1,2 +1,48 @@
 node_modules/
 dist/
+# Target directory (compiled output)
+target/
+
+# Rust build artifacts
+**/*.rs.bk
+debug/
+release/
+
+# Cargo package manager files
+Cargo.lock
+.cargo/
+
+# Rust test & benchmark files
+*.profdata
+*.profraw
+
+# Temporary files & logs
+*.log
+*.out
+*.bak
+
+# Editor & OS-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Binary files
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+
+# cbindgen output
+bindings.h
+
+# Rust documentation output
+target/doc/
+
+# Artifacts from Rust Analyzer
+*.rlib
