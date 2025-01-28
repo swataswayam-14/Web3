@@ -46,3 +46,5 @@ target/doc/
 
 # Artifacts from Rust Analyzer
 *.rlib
+
+.env
